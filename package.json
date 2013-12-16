@@ -1,0 +1,17 @@
+{
+  "name": "domev",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "license" : "MIT",
+  "description": "cancel events. obtain elements from events.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/domev.git"
+  },
+  "keywords": [
+    "listener",
+    "button",
+    "click",
+    "events"
+  ]
+}

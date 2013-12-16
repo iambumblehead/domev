@@ -1,0 +1,20 @@
+/* Filename: domevtest.css
+ * Timestamp: 2013.12.15-20:37:18 (last modified)  
+ * Author(s): Bumblehead (www.bumblehead.com)  
+ */
+
+.bttn {
+    display:inline-block;
+    background-color:blue;
+    color:#fff;
+    border:1px solid red;
+}
+
+.bttn:hover {
+    background-color:red;    
+}
+
+.bttn-label {
+    display:inline-block;
+    margin:20px 10px;
+}
