@@ -1,5 +1,5 @@
 // Filename: domev.js
-// Timestamp: 2013.12.15-20:35:56 (last modified)  
+// Timestamp: 2013.12.26-21:15:17 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)
 
 var domev = {
@@ -8,11 +8,11 @@ var domev = {
     if (typeof e === 'object' && e) {
       if ('target' in e) {
         fn = function (ev) {
-          return ev && ev.target;
+          return ev.target;
         };
       } else if ('srcElement' in e) {
         fn = function (ev) {
-          return ev && ev.srcElement;
+          return ev.srcElement;
         };
       }
     }
@@ -24,11 +24,11 @@ var domev = {
     if (typeof e === 'object' && e) {
       if (e.preventDefault) {
         fn = function (ev) {
-          return ev && ev.preventDefault();          
+          return ev.preventDefault();          
         };
       } else {
         fn = function (ev) {
-          return ev && ev.returnValue = false;          
+          return ev.returnValue = false;          
         };
       }
     }
