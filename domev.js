@@ -33,6 +33,13 @@ var domev = {
       }
     }
     return (domev.stopDefaultAt = fn)(e);
+  },
+  
+  hasElem : function (e, elem, evelem) {
+    evelem = this.getElemAt(e, elem);
+
+    return elem && evelem 
+        && (elem.isEqualNode(evelem) || elem.containsevelem);  
   }
 };
 
