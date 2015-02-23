@@ -1,5 +1,5 @@
 // Filename: domev.js
-// Timestamp: 2013.12.26-21:15:17 (last modified)  
+// Timestamp: 2015.02.23-11:51:35 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)
 
 var domev = {
@@ -39,7 +39,7 @@ var domev = {
     evelem = this.getElemAt(e, elem);
 
     return elem && evelem 
-        && (elem.isEqualNode(evelem) || elem.containsevelem);  
+        && (elem.isEqualNode(evelem) || elem.contains(evelem));  
   }
 };
 
