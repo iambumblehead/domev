@@ -2,7 +2,8 @@
 // Timestamp: 2015.02.23-11:51:35 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)
 
-var domev = {
+var domev = module.exports = {
+  
   getElemAt : function (e) {
     var fn = function () {};
     if (typeof e === 'object' && e) {

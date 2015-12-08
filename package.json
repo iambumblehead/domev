@@ -1,6 +1,7 @@
 {
   "name": "domev",
-  "version": "0.0.4",
+  "version": "0.0.5",
+  "main": "domev.js",
   "readmeFilename": "README.md",
   "license" : "MIT",
   "description": "cancel events. obtain elements from events.",
