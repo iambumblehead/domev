@@ -2,32 +2,13 @@ domev
 =====
 **(c)[Bumblehead][0], 2013** [MIT-license](#license)  
 
-### Overview:
-
 Simple wrapper for the most common scenarious around event objects.
 
- - domev.stopDefaultAt( _event_ ); **cancel event**
- - domev.getElemAt( _event_ ); **obtain element from event**
+ * domev.stopDefaultAt( _event_ ); **cancel event**
+ * domev.getElemAt( _event_ ); **obtain element from event**
  
 
 [0]: http://www.bumblehead.com                            "bumblehead"
-
----------------------------------------------------------
-#### <a id="install"></a>Install:
-
-lsn may be downloaded directly or installed through `npm`.
-
- * **npm**   
-
- ```bash
- $ npm install domev
- ```
-
- * **Direct Download**
- 
- ```bash  
- $ git clone https://github.com/iambumblehead/domev.git
- ```
 
 ---------------------------------------------------------
 #### <a id="test"></a>Test:
@@ -36,9 +17,6 @@ Tests are not automated and are performed by loading a document in the browser a
 
 - load `test/index.html` in your browser and run tests from the console.
 
-
----------------------------------------------------------
-#### <a id="license">License:
 
  ![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png) 
 

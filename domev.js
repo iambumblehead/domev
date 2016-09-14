@@ -35,12 +35,19 @@ var domev = module.exports = {
     }
     return (domev.stopDefaultAt = fn)(e);
   },
+
+  isElem : function (e, elem, evelem) {
+    evelem = this.getElemAt(e, elem);
+
+    return elem && evelem 
+      && elem.isEqualNode(evelem);
+  },
   
   hasElem : function (e, elem, evelem) {
     evelem = this.getElemAt(e, elem);
 
     return elem && evelem 
-        && (elem.isEqualNode(evelem) || elem.contains(evelem));  
+      && (elem.isEqualNode(evelem) || elem.contains(evelem));  
   }
 };
 
