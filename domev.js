@@ -1,5 +1,5 @@
 // Filename: domev.js
-// Timestamp: 2015.02.23-11:51:35 (last modified)  
+// Timestamp: 2016.11.07-12:14:20 (last modified)
 // Author(s): Bumblehead (www.bumblehead.com)
 
 var domev = module.exports = {
@@ -18,6 +18,16 @@ var domev = module.exports = {
       }
     }
     return (domev.getElemAt = fn)(e);
+  },
+
+  getparentlinkelemat : function (e) {
+    var elem = this.getElemAt(e);
+
+    return elem && (function getparentlink (elem) {
+      return (elem && elem.tagName) && (
+        elem.tagName.match(/^a/i)
+          ? elem : getparentlink(elem.parentNode));        
+    }(elem));
   },
 
   stopDefaultAt : function (e) {
