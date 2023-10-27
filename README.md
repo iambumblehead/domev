@@ -1,6 +1,9 @@
 domev
 =====
-**(c)[Bumblehead][0], 2013** [MIT-license](#license)  
+**(c)[Bumblehead][0], 2013** [MIT-license](#license)
+
+> [!WARNING]
+> This old package not suitable for production.
 
 Simple wrapper for the most common scenarious around event objects.
 
@@ -10,15 +13,12 @@ Simple wrapper for the most common scenarious around event objects.
 
 [0]: http://www.bumblehead.com                            "bumblehead"
 
----------------------------------------------------------
-#### <a id="test"></a>Test:
-
 Tests are not automated and are performed by loading a document in the browser and using the browser console.
 
 - load `test/index.html` in your browser and run tests from the console.
 
 
- ![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png) 
+ ![scrounge](https://github.com/iambumblehead/scroungejs/raw/main/img/hand.png) 
 
 (The MIT License)
 
